@@ -1,2 +1,2 @@
-# video-player
-Web Reproductor de Vídeo realizado el Curso de Introducción de Desarrollo Web de Leonidas Esteban
+# Video Player
+Web Reproductor de Vídeo realizado en Curso de Introducción de Desarrollo Web de Leonidas Esteban

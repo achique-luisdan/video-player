@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="body-player">
+    <main>
+      <div class="wrapper">
+        <article id="player-index" class="player">
+          <div class="overlay">
+            <h1 class="title">Camina hacia el futuro</h1>
+            <section class="actions">
+              <button
+                id="backward"
+                class="btn"
+                aria-label="Retroceder 10 segundos"
+                title="Retroceder 10 segundos"
+              ></button>
+              <button
+                id="play"
+                class="btn"
+                aria-label="Reproducir"
+                title="Reproducir"
+              ></button>
+              <button
+                id="pause"
+                class="btn"
+                hidden
+                aria-label="Pausar"
+                title="Pausar"
+              ></button>
+              <button
+                id="forward"
+                class="btn"
+                aria-label="Avanzar 10 segundos"
+                title="Avanzar 10 segundos"
+              ></button>
+            </section>
+            <section class="progress">
+              <input id="range-index" type="range" min="0" step="1" value="0" />
+            </section>
+          </div>
+          <video
+            id="video-index"
+            src="./media/technical.mp4"
+            muted
+          ></video>
+        </article>
+      </div>
+    </main>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
